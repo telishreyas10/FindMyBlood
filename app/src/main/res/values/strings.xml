@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FindMyBlood</string>
+    <string name="textView1">Hello</string>
+    <string name="textview2">Start Page</string>
+    <string name="button1">Already Have Account</string>
+    <string name="button2">Register</string>
+    <string name="textview4">Registration</string>
+    <string name="textview3">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register_button">Register</string>
+    <string name="item_logout">Logout</string>
+    <string name="login_button">Login</string>
+    <string name="start_logo">logo</string>
+    <string name="register_location">Location</string>
+    <string name="register_Phone">Phone</string>
+    <string name="register_fullname">Full Name</string>
+    <string name="register_address">Address</string>
+    <string name="register_age">Age</string>
+
+    <string-array name="blood_groups">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_frag">Account Fragment</string>
+    <string name="request_Bloodgroup">Blood Group</string>
+    <string name="request_Location">Location</string>
+    <string name="request_Button">Search</string>
+    <string name="H">Hello</string>
+    <string name="request_username">FullName</string>
+    <string name="request_location">Location</string>
+    <string name="request_phone">Phone</string>
+    <string name="request_bloodgroup">Bloodgroup</string>
+    <string name="request_age">Age</string>
+    <string name="request_button">Request</string>
+    <string name="request_accept_button">Button</string>
+    <string name="request_acceptblood">Accept</string>
+    <string name="back_button">Back</string>
+    <string name="next_button">Next</string>
+
+</resources>

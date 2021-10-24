@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "606983502270",
+    "firebase_url": "https://findmyblood-c1f96.firebaseio.com",
+    "project_id": "findmyblood-c1f96",
+    "storage_bucket": "findmyblood-c1f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606983502270:android:273c9b0b3c935c5e",
+        "android_client_info": {
+          "package_name": "com.blizzard.app.findmyblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606983502270-q9c58m5e7rb8idjrh024ssgkqlveo5b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blizzard.app.findmyblood",
+            "certificate_hash": "ed02dc0e4e5ed7fa03c2a19afc9aa89a744e2cdd"
+          }
+        },
+        {
+          "client_id": "606983502270-62f9oabhoul9grrf8c7nl12a3ivfrro5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzACCvkU6UQzbJ7yY_GniO6M3vRL_en4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606983502270-62f9oabhoul9grrf8c7nl12a3ivfrro5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

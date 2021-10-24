@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/request_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/request_spinner"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_text"></android.support.v7.widget.AppCompatSpinner>
+
+    <AutoCompleteTextView
+        android:id="@+id/request_location"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/rounded_text"
+        android:hint="@string/request_Location"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/request_button"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rounded_button_2"
+        android:text="@string/request_Button"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/request_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/request_spinner"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

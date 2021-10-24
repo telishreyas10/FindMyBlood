@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/register_fullname"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="@string/register_fullname"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/register_fullname"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="@string/email"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:layout_alignLeft="@+id/register_fullname" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/register_fullname"
+        android:layout_alignTop="@+id/register_email"
+        android:background="@drawable/rounded_text"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_alignRight="@+id/register_fullname" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="268dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/rounded_button_2"
+        android:text="@string/register_button" />
+
+    <EditText
+        android:id="@+id/register_age"
+        android:layout_width="87dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/register_fullname"
+        android:layout_alignTop="@+id/register_phone"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="@string/register_age"
+        android:inputType="number"
+        android:layout_alignLeft="@+id/register_fullname" />
+
+    <EditText
+        android:id="@+id/register_address"
+        android:layout_width="302dp"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/rounded_text"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="@string/register_address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/register_location"
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/register_fullname"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="@string/register_location"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/register_fullname" />
+
+    <Spinner
+        android:id="@+id/register_spinner"
+        android:layout_width="297dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/rounded_text" />
+
+    <EditText
+        android:id="@+id/register_phone"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/register_fullname"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="@string/register_Phone"
+        android:inputType="phone"
+        android:layout_alignRight="@+id/register_fullname" />
+
+    <TextView
+        android:id="@+id/register_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp" />
+</RelativeLayout>
